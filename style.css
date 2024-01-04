@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid red;
+    font-family: sans-serif;
+    line-height: auto;
+}
+button {
+    border-radius: 3px;
+    min-height: 55px;
+}
+
+button,
+a,
+button , a{
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+p{
+    font-size: 18px;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+h4{
+    font-size: 32px;
+
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h1 {
+    font-size: 48px;
+
+}
+
+li {
+    list-style-type: none;
+    letter-spacing: 1px;
+    line-height: 40px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+body{
+    background-color: #ffffff;
+     color: black;
+
+}
+
+head-logo {
+
+  width: 50%;
+
+
+}
+
+navigation {
+    width: 50%;
+
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+navigation nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+navigation nav ul li{
+    padding-left: 20px;
+
+}
+navigation nav ul li a {
+    color: white;
+
+}
+
+head-logo img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.container {
+     display: flex;
+     align-items: center;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+.container .leftchild{
+    width: 45%;
+
+
+}
+
+.container .rightchild{
+    width: 60%;
+    max-width: 800px;
+
+}
+.rightchild article{
+    padding: 10px;
+
+}
+.container article li {
+    font-size: 18px;
+
+}
+
+.rightchild article button,
+.right-wrapper button {
+    min-width: 10rem;
+
+}
+
+.rightchild article button,
+.right-wrapper button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    transition: ease-in 300ms;
+    margin-top: 1rem;
+
+
+}
+
+.rightchild article button:hover,
+.right-wrapper button:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+.container .child1,
+.container .child2,
+.container .child3{
+    width: 33.33%;
+
+    height: 100%;
+
+
+}
+
+.container .child1 a,
+.container .child2 a,
+.container .child3 a, {
+    font-size: 24px;
+    text-transform: capitalizer;
+
+
+
+}
+
+.container article{
+    padding: 30px;
+
+}
+
+.right-wrapper img {
+    border-radius: 5px;
+
+}
+
+.container .child1 button,
+.container .child2 button,
+.container .child3 button,
+{
+    padding: 30px;
+
+}
+
+.container .child1 article,
+.container .child2 article,
+.container .child3 article {
+ 
+    flex: 1;
+    height: 50%;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.container .child1:hover,
+.container .child2:hover,
+.container .child3:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: ease-in 500ms;
+
+}
+
+.child1 i,
+.child2 i,
+.child3 i {
+      font-size: 55px;
+      padding: 0 0 15px 0;
+}
+
+.container .child1 button,
+.container .child2 button,
+.container .child3 button {
+    background-color: transparent;
+    min-width: 10rem;
+
+}
+
+.container .chid1 button a,
+.container .child2 button a,
+.container .child3 button a {
+    color: red;
+    font-size: 22px;
+}
+
+.container .chid1:hover a,
+.container .child2:hover a,
+.container .child3:hover a {
+     background-color: transparent;
+     color: #ffffffff;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 1px 4px 6px rgb(236, 236, 136);
+
+}
+
+.contact-container .left-wrapper {
+    width: 60%;
+    padding: 35px;
+}
+
+.contact-container .right-wrapper button:hover {
+    color: #000;
+
+}
+
+.contact-container .right-wrapper button a {
+    color: inherit;
+
+}
+
+.contact-container.right-wrapper {
+    width: 40px;
+    text-align: center;
+
+}
+
+hr {
+    border: 1px solid #c9c9c9;
+
+}
+
+.costomHr{
+    border: 1px solid #cfcfcf;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.container,
+.contact-container {
+    margin: 6rem 0;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+footer img{
+    color: #fff;
+
+}
+
+footer figure .footlogo {
+    width: 50px;
+}
+
+footer > div {
+    width: 33.33%;
+    padding: 10px;
+    border: px solid red;
+
+}
+   footer .social-icons i.fa-brands,
+   footer .social-icons i {
+    font-size: 22px;
+    padding: 0 5px;
+    
+   }
+   
+
+
+
+
+   .featured-project{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+   }
+
+   .featured-project-left{
+    width: 35%;
+    background-color: #000;
+    
+    border-radius: 1%;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    height: 340px;
+   }
+
+   
+   
+   .featured-project a{
+    align-items: first baseline;
+    color: red;
+   }
+
+   .featured-project-1 a{
+    color: red;
+    
+   }
+
+   .featured-project-right{
+    
+    width: 35%;
+
+    background-color: #000;
+    border-radius: 1%;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    height: 340px;
+   }
+
+
+   .featured-project-left img {
+    padding-top: 14px;
+   }
+
+   .featured-project-right img{
+    padding-top: 5px;
+   }
+   .featured-project-left h1{
+    text-align: left;
+    font-size: 25px;
+   }
+
+.featured-h1{
+    width: 100%;
+    display: flex;
+    
+}
+   .featured-h1 h4{
+    text-align: left;
+    font-size: 25px;
+
+   }
+  
+
+   .featured-h1 button {
+    min-width: 10px;
+    
+    
+    
+   }
+.featured-h1 button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    transition: ease-in 300ms;
+    margin-top: 1rem;
+}
+
+.featured-h1 button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+
+
+
+.featured-project-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+   }
+
+   .featured-project-left-1{
+    width: 35%;
+    background-color: #000;
+    
+    border-radius: 1%;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    height: 340px;
+   }
+
+   .featured-project-right-1{
+    
+    width: 35%;
+
+    background-color: #000;
+    border-radius: 1%;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    height: 340px;
+   }
+
+
+   .featured-project-left-1 img {
+    padding-top: 14px;
+   }
+
+   .featured-project-right-1 img{
+    padding-top: 5px;
+   }
